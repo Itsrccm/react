@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+.img {
+  background-image: './assets/imgs/Header.jpg';
+}
+
