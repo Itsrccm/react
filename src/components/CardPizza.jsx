@@ -1,17 +1,22 @@
 import '../index.css'
 
 
-function CardPizza({name, price,ingredients,img}){
+function CardPizza({name, price,ingredients,img, key,description}){
 
 
     return (
         <section>
             <img src={img} />
-            <div className='container-title'>
+            <div key={key} className='container-title'>
                 <h3>{name}</h3>
+                <p>{description}</p>
             </div>
             <div className='container-texto'>
-                <h3>{ingredients}</h3>
+                <h3>{ingredients.map((ingrediente) => (
+                   
+                    <li>{ingrediente}</li>
+
+                ))}</h3>
            
                 <span>PRICE:{price}</span>
             </div>

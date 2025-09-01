@@ -124,4 +124,33 @@ button {
 
 .footer {
   text-align: center;
+  height: 7vh;
+  
 }
+.form-container {
+
+  
+  width: 100vw;
+  height: 90vh;
+  background-color: aliceblue;
+  
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  
+  width: 410px;
+  height: 200px;
+  margin: auto;
+}
+
+input {
+  width: 400px;
+  background-color: #ffcc00;
+}
+
+.submit {
+  margin-top: 20px;
+}
+

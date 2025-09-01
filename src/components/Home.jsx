@@ -1,11 +1,51 @@
 import Header from './Header'
 import '../index.css'
 import CardPizza from './CardPizza'
+import {Pizza} from '../assets/data'
+import { useState } from 'react'
 
 
 function Home(){
+
+
+    const [pizzas, setPizzas]= useState(Pizza);
+   
+
+    
+
+
+
     return(
-        <section className=''>
+
+
+<section>
+     <Header />
+        <div className='container'>
+            
+            {pizzas.map((pizza) => {
+                return (
+                <CardPizza
+                name={pizza.name}
+                price={pizza.price}
+                ingredients={pizza.ingredients}
+                img={pizza.img}
+                key={pizza.id}
+                description={pizza.description}
+                
+
+
+                
+                />
+                )
+            })}
+
+        </div>
+        </section>
+
+    )
+
+       
+        {/* <section className=''>
             <Header />
             <div className='container'>
                 <CardPizza
@@ -31,9 +71,10 @@ function Home(){
             </div>
             
          
-        </section>
+        </section> */}
+        
 
-    )
+    
 }
 
 export default Home

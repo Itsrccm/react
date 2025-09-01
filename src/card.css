@@ -1,0 +1,53 @@
+body{
+background-color: antiquewhite;
+}
+
+.botones button {
+    width: 30px;
+    height: 30px;
+}
+.container-cart{
+    margin: 20px;
+  display: flex;
+  
+  
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  
+  
+  
+  
+  
+}
+
+.elments-card {
+    width: 500px;
+    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  
+  
+
+}
+.botones{
+    display: flex;
+    align-items: center;
+}
+.img-card{
+  width: 80px;
+  height: 80px;
+  border: 10px;
+}
+.container-pagar{
+
+display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+margin-top: 50px;
+}
+
+.container-pagar button {
+    width: 80px;
+}
