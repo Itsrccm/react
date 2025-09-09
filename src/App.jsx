@@ -4,7 +4,8 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import RegisterPage from './components/RegisterPage'
 import Login  from './components/login'
-import Card from './components/Cart'
+import Cart from './components/Cart'
+import Pizza from './components/Pizza'
 import './App.css'
 
 function App() {
@@ -14,18 +15,14 @@ function App() {
     <>
       <div>
         <Navbar />
-        {/* <Home /> */}
+       {/*  <Home /> */}
         {/* <RegisterPage /> */}
         {/* <Login /> */}
-        <Card 
-
-        
-        
-        
-        />
+      {/*   <Cart /> */}
+      <Pizza />
 
 
-        {/* <Footer /> */}
+        <Footer />
         
       </div>
       

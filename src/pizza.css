@@ -1,0 +1,25 @@
+
+.container-pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    
+    
+    
+}
+
+.container-pizza .desc {
+    margin: 20px;
+    width: 500px;
+    text-align: justify;
+}
+
+
+.container-pizza img {
+
+    width: 400px;
+    border-radius: 20%;
+
+}
+

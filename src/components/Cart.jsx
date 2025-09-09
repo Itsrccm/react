@@ -1,11 +1,11 @@
-import '../card.css'
+import '../cart.css'
 import {Pizza} from '../assets/data'
 import { useState, useEffect } from 'react'
 import CardPizza from './CardPizza'
 
 
 
-function Card(){
+function Cart(){
     
 
     const [cart, setCart] = useState(
@@ -95,4 +95,4 @@ function Restar(id) {
 }
 
 
-export default Card
+export default Cart
